@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+https://github.com/ArnthorDadi/arnthordadi.github.io/workflows/CI/CD/badge.svg
+[![codecov](https://codecov.io/gh/ArnthorDadi/arnthordadi.github.io/branch/master/graph/badge.svg)](https://codecov.io/gh/ArnthorDadi/arnthordadi.github.io)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
