@@ -11,7 +11,7 @@ function createQuote(quote, author){
 const QUOTES = [
     createQuote("First, solve the problem. Then, write the code.", "John Johnson"),
     createQuote("Knowledge is power.", "Francis Bacon"),
-    createQuote("Code is like humor. When you have to explain it, it’s bad.”", "Cory House"),
+    createQuote("Code is like humor. When you have to explain it, it’s bad.", "Cory House"),
     createQuote("Fix the cause, not the symptom.", "Steve Maguire"),
     createQuote("Simplicity is the soul of efficiency.", "Austin Freeman"),
     createQuote("Any fool can write code that a computer can understand. Good programmers write code that humans can understand.", "Martin Fowler"),
