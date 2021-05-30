@@ -24,7 +24,7 @@ function Github() {
         blockMargin={5}
         fontSize={16}
         theme={colourTheme}
-        fullYear={true} >
+        fullYear={false} >
           <ReactTooltip delayShow={50} html />
         </GitHubCalendar>
     </Row>
