@@ -1,5 +1,6 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
+import ReactTooltip from 'react-tooltip';
 import { Row } from "react-bootstrap";
 
 function Github() {
@@ -21,8 +22,11 @@ function Github() {
         username="ArnthorDadi"
         blockSize={15}
         blockMargin={5}
+        fontSize={16}
         theme={colourTheme}
-        fontSize={16} />
+        fullYear={true} >
+          <ReactTooltip delayShow={50} html />
+        </GitHubCalendar>
     </Row>
   );
 }
