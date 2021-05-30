@@ -51,7 +51,7 @@ function About() {
         <br /><br />
         <BackendStack />
         
-        <h3 className="float-left"><strong className="purple">Other</strong></h3>
+        <h3 className="float-left">Oth<strong className="purple">er</strong></h3>
         <br /><br />
         <OtherStack />
 
