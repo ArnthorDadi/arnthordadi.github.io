@@ -26,17 +26,19 @@ function App() {
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
-        <a id="home" />
         <Home />
-        <a id="projects" />
         <Projects />
-        <a id="about" />
         <About />
         <Footer />
       </div>
     </Router>
   );
 }
+/*
+<a id="home"></a>
+<a id="projects"></a>
+<a id="about"></a>
+*/
 /*<ScrollToTop />
  <Switch>
    <Route path="/" exact component={Home} />

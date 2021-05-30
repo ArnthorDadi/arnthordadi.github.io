@@ -71,7 +71,9 @@ function NavBar() {
                 </a>
             </Nav.Item>
             <Nav.Item>
-              <a href="#resume" className="nav-link">
+              <a href="https://docs.google.com/document/d/e/2PACX-1vRCi6_3cxgrzUB0eiu-Yo2_g82a7G88Ljo1T2UGL_Fnt40EpT3vJv9QawxPi1aY-ODPYX5YQXiwjAjx/pub" 
+                target="blank"
+                className="nav-link">
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </a>
             </Nav.Item>
