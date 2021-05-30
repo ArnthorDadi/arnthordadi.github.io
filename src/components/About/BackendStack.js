@@ -6,7 +6,6 @@ import {
     DiStreamline,
     DiNodejs,
     DiPython,
-    DiJava,
     DiMongodb
 } from "react-icons/di";
 import { AiOutlineGlobal } from "react-icons/ai";
@@ -37,10 +36,6 @@ function BackendStack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
         <p style={{ fontSize: "0.2em" }} >Python</p>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-        <p style={{ fontSize: "0.2em" }} >JAVA</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />

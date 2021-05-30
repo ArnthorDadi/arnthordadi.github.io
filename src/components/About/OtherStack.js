@@ -4,7 +4,8 @@ import {
     DiDocker,
     DiNpm,
     DiReact,
-    DiVisualstudio
+    DiVisualstudio,
+    DiGit
 } from "react-icons/di";
 import { AiFillCiCircle } from "react-icons/ai";
 import {
@@ -47,6 +48,10 @@ function OtherStack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiHeroku />
         <p style={{ fontSize: "0.2em" }} >HEROKU</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+        <p style={{ fontSize: "0.2em" }} >GIT</p>
       </Col>
     </Row>
   );
