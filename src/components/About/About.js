@@ -12,7 +12,7 @@ import laptopImg from "../../Assets/about.png";
 
 function About() {
   return (
-    <Container fluid className="about-section">
+    <Container fluid className="about-section" id="about">
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
@@ -38,7 +38,7 @@ function About() {
           </Col>
         </Row>
         <Quotes />
-        <br />
+        <br /><br /><br />
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
